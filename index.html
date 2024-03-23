@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            padding:0;
+            margin:0;
+            width:100vw;
+            height:100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        .container{
+            width:30%;
+            height:50%;
+            box-shadow: 0 0 15px 0 black;
+            text-align: center;
+            border-radius: 20px;
+        }
+        .dataitem{
+            display: flex;
+            justify-content: space-between;
+            width:45%;
+            margin: 0 auto;
+            padding:5px;
+        }
+        .dataitem span:first-of-type{
+            font-weight: bold;
+            font-size: 20px;
+        }
+        button{
+            outline: none;
+            padding:10px 10px;
+            margin:8px;
+            border-radius: 15px ;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>User Information Card</h1>
+        <div class="dataitem">
+            <span>First Name:-</span>
+            <span class="fname"></span>
+        </div>
+        <div class="dataitem">
+            <span>Last Name:-</span>
+            <span class="lname"></span>
+        </div>
+        <div class="dataitem">
+            <span>Country:-</span>
+            <span class="country"></span>
+        </div>
+        <div class="dataitem">
+            <span>Phone:-</span>
+            <span class="phone"></span>
+        </div>
+        <div class="dataitem">
+            <span>State:-</span>
+            <span class="state"></span>
+        </div>
+        <div class="dataitem">
+            <span> City:-</span>
+            <span class="city"></span>
+        </div>
+        <div class="dataitem">
+            <span> Village:-</span>
+            <span class="village"></span>
+        </div>
+        <button>Change Theme</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
